@@ -1,0 +1,128 @@
+/* Custom styles for Todo App */
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.todo-item-completed {
+    background-color: #f8f9fa;
+}
+
+.btn-check-completed {
+    color: #198754;
+}
+
+.todo-description {
+    word-break: break-word;
+}
+
+/* Animation for adding/removing todos */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-10px); }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+/* Hover effect for todo items */
+.list-group-item:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Loading spinner */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Error message styling */
+#error-container {
+    margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .list-group-item {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    
+    .list-group-item > div:last-child {
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+}
+
+.todo-item-completed {
+    background-color: #f8f9fa;
+}
+
+.btn-check-completed {
+    color: #198754;
+}
+
+.todo-description {
+    word-break: break-word;
+}
+
+/* Animation for adding/removing todos */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(-10px); }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.fade-out {
+    animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+/* Hover effect for todo items */
+.list-group-item:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Loading spinner */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Error message styling */
+#error-container {
+    margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .list-group-item {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    
+    .list-group-item > div:last-child {
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+}

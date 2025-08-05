@@ -1,0 +1,40 @@
+<!-- ============================================================================ -->
+<!-- CDK PROJECT CONFIGURATION - .NET 8 CDK Application                         -->
+<!-- ============================================================================ -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- ================================================================ -->
+  <!-- PROJECT PROPERTIES - Core .NET configuration                    -->
+  <!-- ================================================================ -->
+  <PropertyGroup>
+    <!-- Executable output type - CDK apps are console applications -->
+    <OutputType>Exe</OutputType>
+    
+    <!-- Target .NET 8 framework - Latest LTS version with CDK support -->
+    <TargetFramework>net8.0</TargetFramework>
+    
+    <!-- Enable implicit using statements - Reduces boilerplate code -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    
+    <!-- Enable nullable reference types - Improved type safety -->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- ================================================================ -->
+  <!-- CDK PACKAGE REFERENCES - Latest CDK libraries                   -->
+  <!-- ================================================================ -->
+  <ItemGroup>
+    <!-- Core CDK library - Updated to latest version with newest features -->
+    <!-- Version 2.204.0 includes latest L3 constructs and performance improvements -->
+    <PackageReference Include="Amazon.CDK.Lib" Version="2.204.0" />
+    
+    <!-- JSII Analyzers - Updated for latest CDK compatibility -->
+    <!-- Ensures CDK constructs are used correctly and safely -->
+    <PackageReference Include="Amazon.JSII.Analyzers" Version="1.112.0" />
+    
+    <!-- Constructs library - Base framework for CDK constructs -->
+    <!-- Required for custom L3 constructs like StaticWebsiteConstruct -->
+    <PackageReference Include="Constructs" Version="10.4.2" />
+  </ItemGroup>
+
+</Project>

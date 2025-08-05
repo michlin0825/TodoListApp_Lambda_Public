@@ -1,0 +1,53 @@
+# .NET build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.vscode
+*.vs
+*.suo
+*.cache
+*.log
+
+# AWS CDK artifacts
+cdk.out/
+cdk.context.json
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Local development files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Lambda deployment packages
+*.zip
+
+# Local SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# IDE specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Script files that might contain sensitive information
+start_*.sh
