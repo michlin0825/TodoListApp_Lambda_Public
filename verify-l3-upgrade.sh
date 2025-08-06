@@ -10,9 +10,9 @@ RED='\033[0;31m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
-# L3 Upgraded URLs
-API_URL="https://gdp4fe03ad.execute-api.us-east-1.amazonaws.com/prod"
-FRONTEND_URL="http://todo-app-frontend-cloudchef01-us-cdk-l3.s3-website-us-east-1.amazonaws.com"
+# L3 Upgraded URLs - Replace with your actual deployment URLs
+API_URL="https://<your-api-id>.execute-api.us-east-1.amazonaws.com/prod"
+FRONTEND_URL="http://<your-bucket-name>.s3-website-us-east-1.amazonaws.com"
 
 echo -e "${BLUE}🌐 L3 Upgraded Application URLs:${NC}"
 echo "• Frontend: $FRONTEND_URL"

@@ -8,7 +8,7 @@ echo "=================================================="
 
 # Configuration
 API_URL="https://g3zokr6lo4.execute-api.us-east-1.amazonaws.com/prod/api/todos"
-FRONTEND_URL="http://todo-app-frontend-cloudchef01-us-cdk.s3-website-us-east-1.amazonaws.com"
+FRONTEND_URL="http://<your-bucket-name>.s3-website-us-east-1.amazonaws.com"
 
 echo ""
 echo "📍 Testing API Endpoint..."
